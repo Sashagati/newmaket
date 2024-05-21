@@ -5,22 +5,31 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+  font-family: 'Source Sans Pro 2';
 }
 @font-face {
-  font-family: "Source Sans Pro";
-  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"),
-    url("SourceSansPro-SemiBold.woff2") format("woff2");
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+    url('../fonts/SourceSansPro-SemiBold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Source Sans Pro";
-  src: local("Source Sans Pro Reqular"), local("SourceSansPro-Reqular"),
-    url("SourceSansPro-Reqular.woff2") format("woff2");
-  font-weight: 400;
+  font-family: 'Source Sans Pro 2';
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+    url('../fonts/SourceSansPro-Regular.woff2') format('woff2');
+  font-weight: bold;
   font-style: italic;
   font-display: swap;
+}
+
+
+
+h1,
+h2,
+h3 {
+  font-family: 'Source Sans Pro';
 }
 
 ul {
@@ -29,6 +38,12 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+.btn-blue:hover{
+  background:#e4ebfd;
+  ;
+	color:#0D0F3A;
+
 }
 .icon {
   margin-left: 16px;
@@ -47,12 +62,11 @@ a {
   align-items: center;
 }
 .menu_list {
-  font-family: "Source Sans Pro";
   font-size: 16px;
   display: flex;
   align-items: center;
   gap: 49px;
-  margin-left: 49px;
+  margin-right: 479px;
 }
 .menu_item {
   font-weight: 400;
@@ -60,17 +74,12 @@ a {
 
 .btn1 {
   font-family: "Source Sans Pro";
-
   background-color: #fff;
   border: 1px solid #3a36ec;
   border-radius: 200px;
   color: #3a36ec;
   padding: 12px 32px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-left: auto;
-  display: inline-block;
+  font-size:18px;
 }
 .btn2 {
   font-family: "Source Sans Pro";
@@ -79,11 +88,8 @@ a {
   color: white;
   background: #3a36ec;
   padding: 12px 32px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-left: auto;
-  display: inline-block;
+  font-size:18px;
+
 }
 .banner {
   background-image: url(../images/Rectangle\ 3684.png);
@@ -103,33 +109,30 @@ a {
 
 .banner-title {
   margin-bottom: 20px;
-  font-family: "Source Sans Pro";
-  font-size: 50px;
+
+  font-size: 64px;
   line-height: 80px;
   font-weight: 600;
-  margin-top: 120px;
-  margin-bottom: 24px;
-  max-width: 700px;
+  margin-top: 177px;
+  max-width: 874px;
 }
 .banner-text {
-  font-size: 15px;
-  /* font-family: 'Source Sans Pro'; */
+  font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin-bottom: 20px;
-  max-width: 650px;
-  margin-bottom: 40px;
+  margin-top: 24px;
+  max-width: 874px;
 }
 .btn-second {
-  margin-top: 20px;
+  margin-top: 56px;
 }
 .btn3 {
   font-family: "Source Sans Pro";
   background-color: #fff;
-  border: 1px solid #3a36ec;
+ 
   border-radius: 200px;
   color: #3a36ec;
-  padding: 12px 32px;
+  padding: 16px 48px;
 }
 .btn4 {
   font-family: "Source Sans Pro";
@@ -137,7 +140,7 @@ a {
   border-radius: 200px;
   color: white;
   background: #3a36ec;
-  padding: 12px 32px;
+  padding: 16px 48px;
 }
 .blog-empty {
   max-width: 1600px;
@@ -156,195 +159,112 @@ a {
   background-color: #e4ebfd;
 }
 .text-quastion {
-  font-size: 30px;
+  font-size: 32px;
   font-family: "Source Sans Pro";
   display: flex;
   justify-content: center;
   align-items: center;
   height: 160px;
 }
-.container-block {
+
+.container-desc {
+  display: flex;
   max-width: 1600px;
   margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
-
   min-height: 617px;
 }
 
-.btn5 {
-  font-family: "Source Sans Pro";
-  background-color: #fff;
-  border-radius: 200px;
-  color: white;
-  background: #3a36ec;
-  padding: 12px 32px;
-  margin-left: 80px;
-}
-.btn-third {
-  padding-top: 40px;
-}
+.number_paragraph{
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  
 
-.title-1 {
-  padding-left: 84px;
-  padding-left: 24px;
-  font-size: 46px;
 }
-.text-1 {
-  padding-top: 24px;
-  padding-right: 850px;
+.title1{
+  margin-left: 24px;
+
+}
+.block-img{
+  margin-left: auto;
+  
+}
+.block-text{
+ 
+margin-top: 210px;
+  gap:24px;
+ 
+}
+.text1 { 
+  margin-top: 25px;
+  max-width:588px;
   font-size: 22px;
-  font-family: "Source Sans Pro";
-  max-height: 66px;
-  margin-left: 80px;
+  line-height: 33px;
 }
-.number {
-  padding-top: 210px;
+.btn-blue{
+  margin-top: 40px;
+  background-color: #3A36EC;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro';
+  padding: 17px 32px 17px 32px;
+  border-radius: 200px;
+  border: none;
+  font-size: 18px;
+  transition: background-color 1s ease;
+
+}
+.container-desc2{
   display: flex;
-  font-family: "Source Sans Pro";
-  align-items: center;
-  margin-left: 80px;
-}
-.img1 {
-  margin-left: 730px;
-  margin-top: -300px;
-}
-/* End 1 */
-/* Start 2 */
-.number2 {
-  display: flex;
-  font-family: "Source Sans Pro";
-  align-items: center;
-}
-.title-2 {
-  padding-left: 84px;
-  padding-left: 24px;
-  font-size: 46px;
-}
-.container-block2 {
   max-width: 1600px;
   margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
+
   min-height: 567px;
 }
-.img2 {
-  margin-top: 50px;
-  margin-left: 80px;
+.block-img2{
+  margin-right: auto;
 }
-.number2 {
-  margin-left: 890px;
-  margin-top: -360px;
-}
-.text-2 {
-  margin-left: 890px;
+.number_paragraph2{
+  display: flex;
+  align-items: center;
+  font-size: 48px;
 
-  margin-top: 24px;
-  font-size: 20px;
-  font-family: "Source Sans Pro";
-}
-.btn6 {
-  font-family: "Source Sans Pro";
-  background-color: #fff;
-  border-radius: 200px;
-  color: white;
-  background: #3a36ec;
-  padding: 12px 32px;
-  margin-left: 890px;
-}
 
-/* end 2 */
-/* stert 3 */
+}
+.text2{
+  margin-top: 25px;
+  max-width:588px;
+  font-size: 22px;
+  line-height: 33px;
+}
+ 
 
-.container-block3 {
+.block-text2 {
+  margin-left: 142px;
+  margin-top: 160px;
+
+}
+.container-form{
+ 
   max-width: 1600px;
   margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
-
-  min-height: 617px;
+  min-height: 752px;
+  background-color:#E4EBFD;
+ 
 }
 
-.btn-third {
-  padding-top: 40px;
-}
-
-.title-3 {
-  padding-left: 84px;
-  padding-left: 24px;
-  font-size: 46px;
-}
-.text-3 {
-  padding-top: 24px;
-  padding-right: 850px;
-  font-size: 22px;
-  font-family: "Source Sans Pro";
-  max-height: 66px;
-  margin-left: 80px;
-}
-.btn7 {
-  font-family: "Source Sans Pro";
-  background-color: #fff;
-  border-radius: 200px;
-  color: white;
-  background: #3a36ec;
-  padding: 12px 32px;
-  margin-left: 80px;
-}
-.number3 {
-  padding-top: 210px;
-  display: flex;
-  font-family: "Source Sans Pro";
-  align-items: center;
-  margin-left: 80px;
-}
-.img3 {
-  margin-left: 730px;
-  margin-top: -300px;
-}
-/* end3 */
-/* start4 */
-.number4 {
-    display: flex;
-    font-family: "Source Sans Pro";
-    align-items: center;
-  }
-  .title-4 {
-    padding-left: 84px;
-    padding-left: 24px;
-    font-size: 46px;
-  }
-  .container-block4 {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-left: 80px;
-    padding-right: 80px;
-    min-height: 567px;
-  }
-  .img4 {
-    margin-top: 50px;
-    margin-left: 80px;
-  }
-  .number4 {
-    margin-left: 890px;
-    margin-top: -360px;
-  }
-  .text-4 {
-    margin-left: 890px;
-  
-    margin-top: 24px;
-    font-size: 20px;
-    font-family: "Source Sans Pro";
-  }
-  .btn8 {
-    font-family: "Source Sans Pro";
-    background-color: #fff;
-    border-radius: 200px;
-    color: white;
-    background: #3a36ec;
-    padding: 12px 32px;
-    margin-left: 890px;
-  }
 
 
-/* end4 */
+.form-start{
+
+  max-width: 764px;
+  min-height: 552px;
+  background-color:#C2D7FF;
+  border-radius: 20px;
+ 
+}

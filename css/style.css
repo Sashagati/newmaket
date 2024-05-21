@@ -1,23 +1,25 @@
 html {
   box-sizing: border-box;
+ 
 }
 *,
 *::after,
 *::before {
   box-sizing: inherit;
+  font-family: 'Source Sans Pro 2';
 }
 @font-face {
-  font-family: "Source Sans Pro";
-  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"),
-    url("SourceSansPro-SemiBold.woff2") format("woff2");
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+    url(../fonts/SourceSansPro-SemiBold.woff2) format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Source Sans Pro";
-  src: local("Source Sans Pro Reqular"), local("SourceSansPro-Reqular"),
-    url("SourceSansPro-Reqular.woff2") format("woff2");
+  font-family: 'Source Sans Pro 2';
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+    url(../fonts/SourceSansPro-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -29,6 +31,10 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+ 
+}
+h1, h2, h3 {
+  font-family: 'Source Sans Pro';
 }
 .icon {
   margin-left: 16px;
@@ -103,7 +109,7 @@ a {
 
 .banner-title {
   margin-bottom: 20px;
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
   font-size: 50px;
   line-height: 80px;
   font-weight: 600;
@@ -113,7 +119,7 @@ a {
 }
 .banner-text {
   font-size: 15px;
-  /* font-family: 'Source Sans Pro'; */
+
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -124,15 +130,15 @@ a {
   margin-top: 20px;
 }
 .btn3 {
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
   background-color: #fff;
-  border: 1px solid #3a36ec;
+  
   border-radius: 200px;
   color: #3a36ec;
   padding: 12px 32px;
 }
 .btn4 {
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
   background-color: #fff;
   border-radius: 200px;
   color: white;
@@ -163,6 +169,86 @@ a {
   align-items: center;
   height: 160px;
 }
+
+.container-desc{
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  min-height: 617px;
+}
+.number-title{
+  display: flex;
+  align-items: center;
+}
+.footer{
+  margin-top:210px;
+}
+.text-1{
+  margin-top: 24px;
+  font-size:22px;
+  max-width:588px ;
+  margin-bottom: 54px;
+}
+.btn-blue{
+  
+  
+  font-family: 'Source Sans Pro';
+  background-color: #fff;
+  border-radius: 200px;
+  color: white;
+  background: #3a36ec;
+  padding: 17px 32px;
+ 
+}
+.img-audience{
+  margin-left: auto;
+  margin-top: 100px;
+}
+.title-1{
+  margin-left: 24px;
+  font-size: 48px;
+}
+
+.container-decs-2{
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  min-height: 567px;
+
+}
+.img-segmentation{
+ margin-top: 50px;
+}
+.number-title-2{
+  display: flex;
+  align-items: center;
+  
+}
+.footer-2{
+  margin-top:160px;
+ 
+}
+.btn-blue-2{
+  
+  font-family: 'Source Sans Pro';
+  
+  border-radius: 200px;
+  color: white;
+  background: #3a36ec;
+  padding: 17px 32px;
+
+}
+.text-2{
+  margin-top: 24px;
+  font-size:22px;
+  max-width:588px ;
+  margin-bottom: 57px;
+}
+/*  
 .container-block {
   max-width: 1600px;
   margin: 0 auto;
@@ -211,6 +297,7 @@ a {
 }
 /* End 1 */
 /* Start 2 */
+/*  
 .number2 {
   display: flex;
   font-family: "Source Sans Pro";
@@ -253,8 +340,7 @@ a {
   margin-left: 890px;
 }
 
-/* end 2 */
-/* stert 3 */
+
 
 .container-block3 {
   max-width: 1600px;
@@ -302,8 +388,7 @@ a {
   margin-left: 730px;
   margin-top: -300px;
 }
-/* end3 */
-/* start4 */
+
 .number4 {
     display: flex;
     font-family: "Source Sans Pro";

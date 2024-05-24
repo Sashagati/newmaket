@@ -1,0 +1,136 @@
+@media (max-width: 720px) {
+  .menu-row,
+  .header-btn-group {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+    position: absolute;
+    right: 16px;
+  }
+  .logo {
+    position: absolute;
+    left: 16px;
+  }
+
+  .open .menu-list {
+    display: none;
+    position: fixed;
+    width: 360px;
+    height: 232px;
+    background-color: #ffffff;
+    padding-top: 80px;
+    gap: 20px;
+    padding-left: 16px;
+    row-gap: 20px;
+  }
+
+  .banner-cont {
+    flex-direction: column;
+    min-height: 600px;
+    margin-left: 20px;
+  }
+  .container {
+    background-image: url(../images/banner-720px.png);
+    background-position: right;
+
+    background-color: #e4ebfd;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0;
+    border-radius: 30px;
+  }
+
+  .banner-title {
+    margin-top: 39px;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 12px;
+    width: 288px;
+  }
+  .banner-description {
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 24px;
+    width: 288px;
+  }
+
+  .banner-btn-group {
+    margin-top: 0;
+  }
+  .light-none-border {
+    padding: 8px 24px;
+  }
+  .dark {
+    padding: 8px 24px;
+  }
+  .container-question {
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .text-quastion {
+    font-size: 24px;
+  }
+  .container-desc-odd,
+  .container-decs-even {
+    display: block;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 432px;
+  }
+  .number-title-wrap {
+    margin-left: 0;
+  }
+  .img-odd {
+    margin: 0;
+    width: 328px;
+    height: 236px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .img-odd-adap {
+    width: 328px;
+    height: 236px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  .section {
+    margin-top: 60px;
+
+    width: 328px;
+    height: 164px;
+  }
+  .caption-number-odd,
+  .caption-number-2 {
+    font-size: 28px;
+    margin-left: 12px;
+  }
+  .number-odd {
+    width: 40px;
+    height: 40px;
+  }
+  .desc-number-odd,
+  .desc-number-2 {
+    font-size: 16px;
+    width: 328px;
+    height: 48px;
+    margin-bottom: 32px;
+  }
+  .logo-header {
+    width: 194.59px;
+    height: 24px;
+  }
+  .imag-even {
+    width: 328px;
+    height: 236px;
+  }
+  .section-segmentation {
+  }
+}

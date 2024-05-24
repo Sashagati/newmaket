@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *::after,
@@ -53,7 +54,7 @@ h3 {
   display: flex;
   align-items: center;
 }
-.container {
+.container-header {
   max-width: 1600px;
   margin: 0 auto;
   padding-left: 80px;
@@ -65,15 +66,15 @@ h3 {
   align-items: center;
   justify-content: space-between;
 }
-.menu-row {
+.nav {
   margin-left: 40px;
 }
-.menu_list {
+.menu-list {
   display: flex;
   gap: 40px;
   color: #0d0f3a;
 }
-.menu_item {
+.menu-item {
   font-weight: 400;
 }
 .header-btn-group {
@@ -100,16 +101,24 @@ h3 {
   text-align: center;
   white-space: nowrap;
 }
-.banner {
-  background-image: url(../images/Rectangle\ 3684.png);
+.container {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  min-height: 617px;
+  background-image: url(../images/banner\ 1600px.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
+  border-radius: 30px;
 }
+
 .banner-cont {
   min-height: 700px;
   color: #0d0f3a;
-  max-height: 1400px;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -148,22 +157,6 @@ h3 {
   text-align: center;
   white-space: nowrap;
 }
-/* .btn3 {
-  font-family: "Source Sans Pro";
-  background-color: #fff;
-
-  border-radius: 200px;
-  color: #3a36ec;
-  padding: 12px 32px;
-}
-.btn4 {
-  font-family: "Source Sans Pro";
-  background-color: #fff;
-  border-radius: 200px;
-  color: white;
-  background: #3a36ec;
-  padding: 12px 32px;
-} */
 
 .container-question {
   max-width: 100%;
@@ -198,8 +191,7 @@ h3 {
 .section {
   margin-top: 210px;
 }
-.desc-number-1,
-.desc-number-3,
+.desc-number-odd,
 .desc-number-4 {
   margin-top: 24px;
   font-size: 22px;
@@ -218,8 +210,7 @@ h3 {
   margin-left: auto;
   margin-top: 100px;
 }
-.caption-number-1,
-.caption-number-3 {
+.caption-number-odd {
   margin-left: 24px;
   font-size: 48px;
 }
@@ -279,7 +270,6 @@ h3 {
 .send-form {
   font-family: "Source Sans Pro";
   font-size: 18px;
-  background-color: #fff;
   border-radius: 200px;
   color: white;
   background: #3a36ec;
@@ -388,4 +378,19 @@ textarea {
 }
 .company {
   padding-top: 32px;
+}
+/* Адаптив */
+.nav-button {
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 200px;
+  color: white;
+  background: #3a36ec;
+  padding: 4px 17px 4px 16px;
+  border: none;
+  text-align: center;
+  display: none;
+}
+.icon-menu {
+  padding-left: 13px;
 }

@@ -83,7 +83,6 @@ h3 {
   font-weight: 400;
 }
 .header-btn-group {
-  margin-left: 481px;
   display: flex;
   gap: 12px;
 }
@@ -115,8 +114,9 @@ h3 {
   min-height: 617px;
   background-image: url(../images/banner\ 1600px.png);
   background-repeat: no-repeat;
+
   background-position: top center;
-  background-size: contain;
+
   border-radius: 30px;
 }
 
@@ -135,7 +135,7 @@ h3 {
   font-family: "Source Sans Pro";
   font-size: 50px;
   line-height: 80px;
-  font-weight: 600;
+
   margin-top: 120px;
   margin-bottom: 24px;
   max-width: 700px;
@@ -351,7 +351,7 @@ textarea {
 }
 
 .container-last {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
@@ -403,11 +403,8 @@ textarea {
   border-radius: 200px;
   color: white;
   background: #3a36ec;
-  padding: 4px 17px 4px 16px;
+  padding: 4px 16px 4px 16px;
   border: none;
   text-align: center;
   display: none;
-}
-.icon-menu {
-  padding-left: 13px;
 }

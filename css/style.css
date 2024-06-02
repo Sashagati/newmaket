@@ -1,12 +1,16 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 *,
 *::after,
 *::before {
   box-sizing: inherit;
   font-family: "Source Sans Pro 2";
+}
+body{
+  overflow: hidden;
 }
 @font-face {
   font-family: "Source Sans Pro";
